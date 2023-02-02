@@ -7,7 +7,7 @@ const AsideMenu = () => {
 
   return (
     <>
-      <button onClick={() => setShowAside(!showAside)} className="fixed top-0 right-0 z-50 p-3 color-white rounded-full bg-cyan-800 m-2 md:hidden">
+      <button onClick={() => setShowAside(!showAside)} className="fixed top-0 right-0 z-50 p-3 color-white rounded-full bg-[#04b4e0] m-2 md:hidden">
 				<svg width="25" height="25" fill='white' viewBox="0 0 24 24">
           {showAside ? (
             <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
